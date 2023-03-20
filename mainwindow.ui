@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>559</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>571</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1000</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#F9DBBB;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="button_40">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>260</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#B3E5BE;
+border-radius:30px;
+color:#913175;
+border:2px solid #A86464;
+</string>
+     </property>
+     <property name="text">
+      <string>40min</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_30">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>260</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#B3E5BE;
+border-radius:30px;
+color:#913175;
+border:2px solid #A86464;
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>30 min </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_60">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>260</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#B3E5BE;
+border-radius:30px;
+color:#913175;
+border:2px solid #A86464;
+</string>
+     </property>
+     <property name="text">
+      <string>60min</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>190</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#FF8FB1;
+text-align:right;
+color:black;
+border-radius:10px;
+border:5px solid #2B3467;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Hustle</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Stop">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>350</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#B3E5BE;
+border-radius:10px;
+color:#913175
+;border:2px solid #A86464;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Give up</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>220</y>
+       <width>75</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Coding</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string notr="true">Study</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Reading</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nap</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLCDNumber" name="lcdNumber">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>239</width>
+       <height>99</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">padding: 2px; 
+text-align: center; 
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="digitCount">
+      <number>9</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Filled</enum>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>559</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPast_3_Days">
+    <property name="title">
+     <string>Stats for nerds</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action3_day"/>
+    <addaction name="action7_day"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit_Database">
+    <property name="title">
+     <string>Edit Database</string>
+    </property>
+    <addaction name="actionOpen"/>
+   </widget>
+   <addaction name="menuPast_3_Days"/>
+   <addaction name="menuEdit_Database"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action3_day">
+   <property name="text">
+    <string>3 days</string>
+   </property>
+  </action>
+  <action name="action7_day">
+   <property name="text">
+    <string>7 days</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

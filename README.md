@@ -19,10 +19,13 @@ The data will be display in histogram view using QTChart library.
 ### Interfaces
 
 ![image](https://user-images.githubusercontent.com/85050265/226509816-e5f03bbd-0a62-4f2a-a50b-e5eb729a330c.png)
+<br>
 Main Interface
 
 ![image](https://user-images.githubusercontent.com/85050265/226509995-4ff0cbb0-6458-446f-98b1-01ea281dd0f6.png)
+<br>
 Another interface to display previous focus record
 
 ![image](https://user-images.githubusercontent.com/85050265/226510050-f7bbedd8-e1ae-460e-b6f7-d7d2b6c4f7dd.png)
+<br>
 Database editing interface to edit sqlite database

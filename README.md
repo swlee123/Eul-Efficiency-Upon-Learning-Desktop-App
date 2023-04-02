@@ -4,6 +4,10 @@
 
 A respository to record source code of Focus_Tracker made my myself using C++ on [QT platform](https://www.qt.io/) 
 
+## How to run the application
+Download the .rar file and uncompress the file.
+After thath,run the .exe file inside to open the application. 
+
 ## Features
 
 ### Timer
